@@ -1,17 +1,16 @@
 #include <iostream>
-#include "PointOfSale.h"
-#include "PointOfSale.cpp"
+#include "PointOfSale.hpp"
+//#include "PointOfSale.cpp"
 using namespace std;
 
-int main()
-{
+int main() {
     PointOfSale pos;
 
     pos.addCode("10342");
     pos.addCode("10557");
     pos.addCode("10557");
 
-    pos.total(); // This will return $1.40
+    cout << pos.total(); // This will return $1.40
 
 	return 0;
 };

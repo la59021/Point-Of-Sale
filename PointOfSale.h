@@ -6,14 +6,15 @@
 
 using namespace std;
 
-class PointOfSale
-{
+class PointOfSale {
+
     private:
-		double totalPrice;	 
-    public:		 
+		int totalPrice;
+    public:
     	PointOfSale();
         void addCode(string);
-        double total();
+        string total();
+
 };
 
 #endif // POINTOFSALE_H
